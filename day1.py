@@ -39,4 +39,5 @@ print("The name of your Musical Band is " + name + city)
 x = int(input("Your first value "))
 y = int(input("Your second value "))
 z = x * y
+print(z)
 print("The product of " + str(x) + " and " + str(y) + " is " + str(z))
