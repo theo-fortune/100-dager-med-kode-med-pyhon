@@ -43,3 +43,10 @@ if num1 == magic_num:
   print("🎉 Congratulations You won the lottery")
 else:
   print("🥺 Sorry you have to try again")
+
+#* Who will pay
+names = ["Fortune", "Hezron", "Tee Mac", "Marthy", "Elizabeth", "Tom"]
+names_index = len(names)
+random_index = random.randint(0, names_index - 1)
+who_is_it = names[random_index]
+print(f"{who_is_it} is going to pay the bill")
