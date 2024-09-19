@@ -33,3 +33,12 @@ foodAvailable = ["Strawberries", "Spinach", "Kale", "Nectarines", "Apples", "Gra
 
 fruits = ["Strawberries",  "Nectarines", "Apples", "Grapes", "Peaches", "Cherries", "Pears"]
 veggies = ["Tomatoes", "Celeries", "Potatoes" "Spinach", "Kale"]
+
+num1 = int(input("Can you guess the number from 1-10? "))
+magic_num = random.randint(1, 10)
+print(magic_num)
+
+if num1 == magic_num:
+  print("🎉 Congratulations You won the lottery")
+else:
+  print("🥺 Sorry you have to try again")
