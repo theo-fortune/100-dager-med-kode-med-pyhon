@@ -25,6 +25,7 @@ cars[-1] = "Tesla Model Y"
 cars.append("Lotus Emira")
 cars.extend(["Lucid Air Sapphire", "GMC Hummer EV Pickup"])
 print(cars[-1])
+cars[1] = "Lamborghini Urus"
 print(cars)
 
 print(len(cars))
