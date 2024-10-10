@@ -10,8 +10,19 @@ print(f"The random word is: {chosenWord}")
 
 guessedLetter = input("Guess a letter form the random word: ").lower()
 
+display = []
 for letter in chosenWord:
-  if letter == guessedLetter:
-    print("✅Right!")
-  else:
-    print("❌Wrong")
+  display += "_"
+print(display)
+
+wordLength = len(chosenWord)
+for position in range(wordLength):
+  print(f"The position is: {position}")
+
+if letter == guessedLetter:
+  print("✅Right!")
+else:
+  print("❌Wrong")
+
+print(display)
+
